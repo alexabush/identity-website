@@ -39,3 +39,26 @@ p {
 .Card__div--text {
   text-align: center;
 }
+
+.icons__container {
+  display: flex;
+  flex-direction: row;
+  width: 200px;
+  justify-content: space-around;
+}
+
+.icon__container {
+  width: 25px;
+  height: 25px;
+  border: 1px solid rgb(204, 207, 211);
+  border-radius: 50px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.fab {
+  color: rgb(204, 207, 211);
+  font-size: 24px;
+}

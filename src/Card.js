@@ -17,6 +17,17 @@ class Card extends Component {
           <h1>Deadpool</h1>
           <p>Senior psychonautics engineer</p>
         </div>
+        <div className="icons__container">
+          <div className="icon__container">
+            <i className="fab fa-twitter" />
+          </div>
+          <div className="icon__container">
+            <i className="fab fa-instagram" />
+          </div>
+          <div className="icon__container">
+            <i className="fab fa-facebook-f" />
+          </div>
+        </div>
       </div>
     );
   }
